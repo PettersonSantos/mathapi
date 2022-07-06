@@ -15,6 +15,6 @@ import java.util.List;
 public class Maths {
     @NotNull
     private List<Integer> numbers;
-    @NotNull
     private Integer qualifier;
+    private double percentile;
 }
