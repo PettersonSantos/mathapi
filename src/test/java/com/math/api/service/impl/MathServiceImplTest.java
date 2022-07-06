@@ -84,6 +84,4 @@ public class MathServiceImplTest {
         Assertions.assertEquals(service.percentile(list, 51.0), 2.0);
         Assertions.assertEquals(service.percentile(list, 49.0), 1.0);
     }
-
-
 }

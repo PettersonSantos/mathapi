@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+
+  app-maths:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app-maths
+    volumes:
+      - ./api:/usr/src/app
+    tty: true
+    ports:
+      - "8080:8080"
